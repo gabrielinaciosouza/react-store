@@ -1,7 +1,7 @@
 {
     "extends": "standard-with-typescript",
     "parserOptions": {
-        "project": "./tsconfig.jsom"
+        "project": "./tsconfig.json"
     },
     "rules": {
         "@typescript-eslint/consistent-type-definitions": "off",
