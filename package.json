@@ -30,6 +30,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
     "faker": "^4.1.0",
+    "file-loader": "^6.2.0",
     "git-commit-msg-linter": "^2.4.2",
     "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
