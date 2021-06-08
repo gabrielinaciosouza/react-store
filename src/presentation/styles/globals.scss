@@ -10,23 +10,24 @@
 
 input[type="password"],
 input[type="email"] {
-  border: 1px solid $primaryLight;
-  line-height: 40px;
+  border: 1px solid $white;
+  background-color: $background;
+  line-height: 48px;
   border-radius: 4px;
   padding: 0px 40px 0px 8px;
 
   &:focus {
-    outline-color: $primaryLight;
+    outline-color: $black;
   }
 }
 
 button {
-  background-color: $primary;
+  background-color: $black;
   color: $white;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 16px;
   border: none;
-  line-height: 60px;
+  line-height: 48px;
 
   &:hover {
     opacity: 0.9;

@@ -1,12 +1,12 @@
 import React, { memo } from 'react'
 import Styles from './login-header-styles.scss'
-import Logo from '@/presentation/components/logo/logo'
 
 const LoginHeader: React.FC = () => {
   return (
     <header className={Styles.header}>
-      <Logo />
-      <h1>Loja Virtual</h1>
+
+      <h1>Bem-vindo!</h1>
+      <h2>Entre para continuar</h2>
     </header>
   )
 }

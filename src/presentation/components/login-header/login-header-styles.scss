@@ -3,9 +3,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  border-top: 40px solid $primaryDark;
-  align-items: center;
-  background-color: $primary;
+  align-items: flex-start;
   img {
     margin-top: 40px;
     width: 4%;
@@ -13,7 +11,14 @@
   }
 
   h1 {
-    color: $white;
-    margin: 16px 0px 40px;
+    color: $black;
+    font-size: 80px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    color: $grey;
+    font-size: 32px;
+    font-weight: bolder;
   }
 }

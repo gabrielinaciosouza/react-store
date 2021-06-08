@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Styles from './login-styles.scss'
-import { Footer, Input, FormStatus, LoginHeader } from '@/presentation/components'
+import { Input, FormStatus, LoginHeader } from '@/presentation/components'
 import Context from '@/presentation/contexts/form/form-context'
 
 type StateProps = {
@@ -12,20 +12,20 @@ const Login: React.FC = () => {
     isLoading: false,
     errorMessage: ''
   })
+
   return (
     <div className={Styles.login}>
       <LoginHeader/>
       <Context.Provider value={state}>
         <form className={Styles.form}>
-          <h2>Login</h2>
-          <Input type="email" name="email" placeholder="Digite seu e-mail"/>
-          <Input type="password" name="password" placeholder="Digite sua senha"/>
+          <Input type="email" name="email" placeholder="Email"/>
+          <Input type="password" name="password" placeholder="Senha"/>
           <button className={Styles.submit} type="submit">Entrar</button>
-          <span className={Styles.link}>Criar conta</span>
+          <span className={Styles.link}>Esqueceu a senha?</span>
           <FormStatus/>
         </form>
       </Context.Provider>
-      <Footer />
+
     </div>
   )
 }
