@@ -31,6 +31,15 @@
 
     .submit {
       margin-top: 32px;
+
+      &:disabled {
+        background-color: $disabled;
+        color: $background;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
 
     .link {
