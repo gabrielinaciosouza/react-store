@@ -8,19 +8,6 @@
   box-sizing: border-box;
 }
 
-input[type="password"],
-input[type="email"] {
-  border: 1px solid $white;
-  background-color: $background;
-  line-height: 48px;
-  border-radius: 4px;
-  padding: 0px 40px 0px 8px;
-
-  &:focus {
-    outline-color: $black;
-  }
-}
-
 button {
   background-color: $black;
   color: $white;

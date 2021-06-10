@@ -11,6 +11,7 @@
     "test:ci": "npm test -- --coverage"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^10.4.9",
     "@types/axios": "^0.14.0",
     "@types/faker": "^4.1.11",
